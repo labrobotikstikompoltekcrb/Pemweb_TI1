@@ -1,15 +1,17 @@
 // Import Libraries
 import React from "react";
 import Header from "./Header.jsx";
-// Membuat komponen dengan class
-
+import "./App.css";
+import Footer from "./Footer.jsx";
+import List from "./List.jsx";
 // Create Component
 const App = () => {
   return (
-    <div>
-      <h1>Hello React</h1>
-      <p>Nama saya Firdaus</p>
-      <Header />
+    <div className="App"> 
+    <Header />
+     
+      <List />
+      <Footer />
       </div >
     
 
